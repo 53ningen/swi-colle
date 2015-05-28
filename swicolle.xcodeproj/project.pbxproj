@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFF9C8601B1758B80046468E /* swicolle.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF9C85F1B1758B80046468E /* swicolle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF9C8661B1758B80046468E /* swicolle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF9C85A1B1758B80046468E /* swicolle.framework */; };
+		FFF9C86D1B1758B80046468E /* swicolleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C86C1B1758B80046468E /* swicolleTests.swift */; };
+		FFF9C8771B1758E40046468E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FFF9C8761B1758E40046468E /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF9C8671B1758B80046468E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF9C8511B1758B80046468E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF9C8591B1758B80046468E;
+			remoteInfo = swicolle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFF9C85A1B1758B80046468E /* swicolle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swicolle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF9C85E1B1758B80046468E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF9C85F1B1758B80046468E /* swicolle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swicolle.h; sourceTree = "<group>"; };
+		FFF9C8651B1758B80046468E /* swicolleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swicolleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF9C86B1B1758B80046468E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF9C86C1B1758B80046468E /* swicolleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swicolleTests.swift; sourceTree = "<group>"; };
+		FFF9C8761B1758E40046468E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFF9C8561B1758B80046468E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF9C8621B1758B80046468E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF9C8661B1758B80046468E /* swicolle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFF9C8501B1758B80046468E = {
+			isa = PBXGroup;
+			children = (
+				FFF9C85C1B1758B80046468E /* swicolle */,
+				FFF9C8691B1758B80046468E /* swicolleTests */,
+				FFF9C85B1B1758B80046468E /* Products */,
+				FFF9C8761B1758E40046468E /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF9C85B1B1758B80046468E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF9C85A1B1758B80046468E /* swicolle.framework */,
+				FFF9C8651B1758B80046468E /* swicolleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF9C85C1B1758B80046468E /* swicolle */ = {
+			isa = PBXGroup;
+			children = (
+				FFF9C85F1B1758B80046468E /* swicolle.h */,
+				FFF9C85D1B1758B80046468E /* Supporting Files */,
+			);
+			path = swicolle;
+			sourceTree = "<group>";
+		};
+		FFF9C85D1B1758B80046468E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF9C85E1B1758B80046468E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFF9C8691B1758B80046468E /* swicolleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFF9C86C1B1758B80046468E /* swicolleTests.swift */,
+				FFF9C86A1B1758B80046468E /* Supporting Files */,
+			);
+			path = swicolleTests;
+			sourceTree = "<group>";
+		};
+		FFF9C86A1B1758B80046468E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFF9C86B1B1758B80046468E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FFF9C8571B1758B80046468E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF9C8601B1758B80046468E /* swicolle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FFF9C8591B1758B80046468E /* swicolle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF9C8701B1758B80046468E /* Build configuration list for PBXNativeTarget "swicolle" */;
+			buildPhases = (
+				FFF9C8551B1758B80046468E /* Sources */,
+				FFF9C8561B1758B80046468E /* Frameworks */,
+				FFF9C8571B1758B80046468E /* Headers */,
+				FFF9C8581B1758B80046468E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swicolle;
+			productName = swicolle;
+			productReference = FFF9C85A1B1758B80046468E /* swicolle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFF9C8641B1758B80046468E /* swicolleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF9C8731B1758B80046468E /* Build configuration list for PBXNativeTarget "swicolleTests" */;
+			buildPhases = (
+				FFF9C8611B1758B80046468E /* Sources */,
+				FFF9C8621B1758B80046468E /* Frameworks */,
+				FFF9C8631B1758B80046468E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF9C8681B1758B80046468E /* PBXTargetDependency */,
+			);
+			name = swicolleTests;
+			productName = swicolleTests;
+			productReference = FFF9C8651B1758B80046468E /* swicolleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF9C8511B1758B80046468E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = gomi_ningen;
+				TargetAttributes = {
+					FFF9C8591B1758B80046468E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FFF9C8641B1758B80046468E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FFF9C8541B1758B80046468E /* Build configuration list for PBXProject "swicolle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFF9C8501B1758B80046468E;
+			productRefGroup = FFF9C85B1B1758B80046468E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF9C8591B1758B80046468E /* swicolle */,
+				FFF9C8641B1758B80046468E /* swicolleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFF9C8581B1758B80046468E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF9C8771B1758E40046468E /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF9C8631B1758B80046468E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFF9C8551B1758B80046468E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF9C8611B1758B80046468E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF9C86D1B1758B80046468E /* swicolleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF9C8681B1758B80046468E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF9C8591B1758B80046468E /* swicolle */;
+			targetProxy = FFF9C8671B1758B80046468E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFF9C86E1B1758B80046468E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFF9C86F1B1758B80046468E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFF9C8711B1758B80046468E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = swicolle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFF9C8721B1758B80046468E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = swicolle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FFF9C8741B1758B80046468E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swicolleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFF9C8751B1758B80046468E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swicolleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFF9C8541B1758B80046468E /* Build configuration list for PBXProject "swicolle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF9C86E1B1758B80046468E /* Debug */,
+				FFF9C86F1B1758B80046468E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF9C8701B1758B80046468E /* Build configuration list for PBXNativeTarget "swicolle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF9C8711B1758B80046468E /* Debug */,
+				FFF9C8721B1758B80046468E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFF9C8731B1758B80046468E /* Build configuration list for PBXNativeTarget "swicolleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF9C8741B1758B80046468E /* Debug */,
+				FFF9C8751B1758B80046468E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF9C8511B1758B80046468E /* Project object */;
+}
