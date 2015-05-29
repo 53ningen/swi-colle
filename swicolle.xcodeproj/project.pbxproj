@@ -11,6 +11,8 @@
 		FFF9C8661B1758B80046468E /* swicolle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF9C85A1B1758B80046468E /* swicolle.framework */; };
 		FFF9C86D1B1758B80046468E /* swicolleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C86C1B1758B80046468E /* swicolleTests.swift */; };
 		FFF9C8771B1758E40046468E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FFF9C8761B1758E40046468E /* .gitignore */; };
+		FFF9C8881B18B0200046468E /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C8871B18B0200046468E /* Complex.swift */; };
+		FFF9C88A1B18B1600046468E /* ComplexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C8891B18B1600046468E /* ComplexTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		FFF9C86B1B1758B80046468E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFF9C86C1B1758B80046468E /* swicolleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swicolleTests.swift; sourceTree = "<group>"; };
 		FFF9C8761B1758E40046468E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FFF9C8871B18B0200046468E /* Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
+		FFF9C8891B18B1600046468E /* ComplexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		FFF9C85C1B1758B80046468E /* swicolle */ = {
 			isa = PBXGroup;
 			children = (
+				FFF9C8871B18B0200046468E /* Complex.swift */,
 				FFF9C85F1B1758B80046468E /* swicolle.h */,
 				FFF9C85D1B1758B80046468E /* Supporting Files */,
 			);
@@ -91,6 +96,7 @@
 		FFF9C8691B1758B80046468E /* swicolleTests */ = {
 			isa = PBXGroup;
 			children = (
+				FFF9C8891B18B1600046468E /* ComplexTest.swift */,
 				FFF9C86C1B1758B80046468E /* swicolleTests.swift */,
 				FFF9C86A1B1758B80046468E /* Supporting Files */,
 			);
@@ -213,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF9C8881B18B0200046468E /* Complex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF9C88A1B18B1600046468E /* ComplexTest.swift in Sources */,
 				FFF9C86D1B1758B80046468E /* swicolleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +331,7 @@
 		FFF9C8711B1758B80046468E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +341,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FFF9C8721B1758B80046468E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -399,6 +410,7 @@
 				FFF9C8721B1758B80046468E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFF9C8731B1758B80046468E /* Build configuration list for PBXNativeTarget "swicolleTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +419,7 @@
 				FFF9C8751B1758B80046468E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
