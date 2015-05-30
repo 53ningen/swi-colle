@@ -16,6 +16,14 @@ public struct Complex<T: SignedNumberType> {
         self.r = re
         self.i = im
     }
+    
+    public func re() -> T {
+        return r
+    }
+    
+    public func im() -> T {
+        return i
+    }
 
 }
 
