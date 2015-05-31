@@ -65,11 +65,11 @@
 		FFF9C8501B1758B80046468E = {
 			isa = PBXGroup;
 			children = (
-				FFF9C88F1B1AD7990046468E /* README.md */,
 				FFF9C85C1B1758B80046468E /* swicolle */,
 				FFF9C8691B1758B80046468E /* swicolleTests */,
 				FFF9C85B1B1758B80046468E /* Products */,
 				FFF9C8761B1758E40046468E /* .gitignore */,
+				FFF9C88F1B1AD7990046468E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

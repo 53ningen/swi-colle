@@ -9,7 +9,7 @@ import swicolle
 import XCTest
 import Foundation
 
-class ComplexTest: XCTestCase {
+class ComplexTest : XCTestCase {
     
     func testEq() {
         XCTAssertEqual(Complex(0, 0), Complex(0, 0), "Complex#==")

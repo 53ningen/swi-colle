@@ -7,12 +7,12 @@
 
 import Foundation
 
-public struct Complex<T: SignedNumberType> {
+public struct Complex<T : SignedNumberType> {
     
-    let r: T
-    let i: T
+    let r : T
+    let i : T
     
-    public init(_ re: T, _ im: T) {
+    public init(_ re : T, _ im : T) {
         self.r = re
         self.i = im
     }
@@ -27,7 +27,7 @@ public struct Complex<T: SignedNumberType> {
 
 }
 
-extension Complex: Equatable {}
-public func ==<T>(lhs: Complex<T>, rhs: Complex<T>) -> Bool {
+extension Complex : Equatable {}
+public func ==<T>(lhs : Complex<T>, rhs : Complex<T>) -> Bool {
     return lhs.r == rhs.r && lhs.i == rhs.i
 }
