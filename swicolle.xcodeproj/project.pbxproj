@@ -15,6 +15,7 @@
 		FFF9C88A1B18B1600046468E /* ComplexTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C8891B18B1600046468E /* ComplexTest.swift */; };
 		FFF9C88C1B19FB850046468E /* Specificity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C88B1B19FB850046468E /* Specificity.swift */; };
 		FFF9C88E1B1ACCB70046468E /* SpecificityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C88D1B1ACCB70046468E /* SpecificityTest.swift */; };
+		FFF9C8901B1AD7990046468E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C88F1B1AD7990046468E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		FFF9C8891B18B1600046468E /* ComplexTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexTest.swift; sourceTree = "<group>"; };
 		FFF9C88B1B19FB850046468E /* Specificity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specificity.swift; sourceTree = "<group>"; };
 		FFF9C88D1B1ACCB70046468E /* SpecificityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificityTest.swift; sourceTree = "<group>"; };
+		FFF9C88F1B1AD7990046468E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		FFF9C8501B1758B80046468E = {
 			isa = PBXGroup;
 			children = (
+				FFF9C88F1B1AD7990046468E /* README.md */,
 				FFF9C85C1B1758B80046468E /* swicolle */,
 				FFF9C8691B1758B80046468E /* swicolleTests */,
 				FFF9C85B1B1758B80046468E /* Products */,
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF9C8901B1AD7990046468E /* README.md in Sources */,
 				FFF9C88C1B19FB850046468E /* Specificity.swift in Sources */,
 				FFF9C8881B18B0200046468E /* Complex.swift in Sources */,
 			);
