@@ -7,18 +7,12 @@
 
 import Foundation
 
-public class Math {
-    
-    private init() {}
-    
-    public class func fib(n : Int) -> Int {
-        if n < 2 { return n }
-        else { return fibGo(0, 1, n - 2) }
-    }
+public func fib(n : Int) -> Int {
+    if n < 2 { return n }
+    else { return fibGo(0, 1, n - 2) }
+}
 
-    class func fibGo(a : Int, _ b : Int, _ n: Int) -> Int {
-        if n == 0 { return a + b }
-        else { return fibGo(b, a + b, n - 1) }
-    }
-
+private func fibGo(a : Int, b : Int, n: Int) -> Int {
+    if n == 0 { return a + b }
+    else { return fibGo(b, a + b, n - 1) }
 }

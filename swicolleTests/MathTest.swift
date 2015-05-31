@@ -12,18 +12,18 @@ import Foundation
 public class MathTest : XCTestCase {
     
     public func testFib() {
-        XCTAssertEqual(Math.fib(0), 0, "testFib")
-        XCTAssertEqual(Math.fib(1), 1, "testFib")
-        XCTAssertEqual(Math.fib(2), 1, "testFib")
-        XCTAssertEqual(Math.fib(3), 2, "testFib")
-        XCTAssertEqual(Math.fib(4), 3, "testFib")
-        XCTAssertEqual(Math.fib(5), 5, "testFib")
-        XCTAssertEqual(Math.fib(6), 8, "testFib")
-        XCTAssertEqual(Math.fib(7), 13, "testFib")
-        XCTAssertEqual(Math.fib(8), 21, "testFib")
-        XCTAssertEqual(Math.fib(9), 34, "testFib")
-        XCTAssertEqual(Math.fib(10), 55, "testFib")
-        XCTAssertEqual(Math.fib(11), 89, "testFib")
+        XCTAssertEqual(fib(0), 0, "testFib")
+        XCTAssertEqual(fib(1), 1, "testFib")
+        XCTAssertEqual(fib(2), 1, "testFib")
+        XCTAssertEqual(fib(3), 2, "testFib")
+        XCTAssertEqual(fib(4), 3, "testFib")
+        XCTAssertEqual(fib(5), 5, "testFib")
+        XCTAssertEqual(fib(6), 8, "testFib")
+        XCTAssertEqual(fib(7), 13, "testFib")
+        XCTAssertEqual(fib(8), 21, "testFib")
+        XCTAssertEqual(fib(9), 34, "testFib")
+        XCTAssertEqual(fib(10), 55, "testFib")
+        XCTAssertEqual(fib(11), 89, "testFib")
     }
     
 }
