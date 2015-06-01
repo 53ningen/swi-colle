@@ -30,7 +30,7 @@ public class List<T : Equatable> {
     }
     
     public func isEmpty() -> Bool {
-        return node? == nil
+        return node == nil
     }
     
     public func head() -> T? {
@@ -39,7 +39,7 @@ public class List<T : Equatable> {
     
     public func tail() -> List<T>? {
         
-        if let xs = node?.xs? { return List(xs) }
+        if let xs = node?.xs { return List(xs) }
         else { return Optional.None }
     }
 
