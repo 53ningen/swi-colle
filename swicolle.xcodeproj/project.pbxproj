@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFC040641B1DE3FD00450647 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC040631B1DE3FD00450647 /* Entity.swift */; };
+		FFC040661B1DE42100450647 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC040651B1DE42100450647 /* Identity.swift */; };
+		FFC040681B1DE45000450647 /* ValueObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC040671B1DE45000450647 /* ValueObject.swift */; };
 		FFF9C8601B1758B80046468E /* swicolle.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF9C85F1B1758B80046468E /* swicolle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFF9C8661B1758B80046468E /* swicolle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF9C85A1B1758B80046468E /* swicolle.framework */; };
 		FFF9C86D1B1758B80046468E /* swicolleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF9C86C1B1758B80046468E /* swicolleTests.swift */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FFC040631B1DE3FD00450647 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		FFC040651B1DE42100450647 /* Identity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		FFC040671B1DE45000450647 /* ValueObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueObject.swift; sourceTree = "<group>"; };
 		FFF9C85A1B1758B80046468E /* swicolle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swicolle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF9C85E1B1758B80046468E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFF9C85F1B1758B80046468E /* swicolle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swicolle.h; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				FFF9C8991B1B40A00046468E /* List.swift */,
 				FFF9C85F1B1758B80046468E /* swicolle.h */,
 				FFF9C85D1B1758B80046468E /* Supporting Files */,
+				FFC040631B1DE3FD00450647 /* Entity.swift */,
+				FFC040651B1DE42100450647 /* Identity.swift */,
+				FFC040671B1DE45000450647 /* ValueObject.swift */,
 			);
 			path = swicolle;
 			sourceTree = "<group>";
@@ -240,11 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC040681B1DE45000450647 /* ValueObject.swift in Sources */,
 				FFF9C8901B1AD7990046468E /* README.md in Sources */,
 				FFF9C88C1B19FB850046468E /* Specificity.swift in Sources */,
+				FFC040641B1DE3FD00450647 /* Entity.swift in Sources */,
 				FFF9C8881B18B0200046468E /* Complex.swift in Sources */,
 				FFF9C89A1B1B40A00046468E /* List.swift in Sources */,
 				FFF9C8941B1B033D0046468E /* Math.swift in Sources */,
+				FFC040661B1DE42100450647 /* Identity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
